@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for x in range(0, 99):
-    print("{:02d}".format(x), end=", ")
-print("99")
+for i in range(0, 99):
+    print("{}{}, ".format(i // 10, i % 10), end="")
+print("{}".format(99))
